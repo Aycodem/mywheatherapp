@@ -1,0 +1,1 @@
+web: gunicorn wheatherproject.wsgi.apllication --log-file -v
