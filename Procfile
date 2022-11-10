@@ -1,1 +1,1 @@
-web: gunicorn wheatherproject.wsgi --log-file -
+web: gunicorn wheatherproject.wsgi:application --log-file -
