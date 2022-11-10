@@ -1,2 +1,2 @@
-web: gunicorn wheatherproject.wsgi.apllication --log-file -v
+web: gunicorn wheatherproject.wsgi
 web: python wheatherproject/manage.py runserver 0.0.0.0:$PORT
